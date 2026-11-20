@@ -18,7 +18,7 @@ public class FormMenu extends JFrame {
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
         btnRegistrar.addActionListener(e -> new FormRegistro(usuarios).setVisible(true));
-        ///btnListado.addActionListener(e -> new FormListado(usuarios).setVisible(true));
+        btnListado.addActionListener(e -> new FormListado(usuarios).setVisible(true));
         ///btnCreditos.addActionListener(e -> new FormCreditos().setVisible(true));
 
         setSize(360, 240);
