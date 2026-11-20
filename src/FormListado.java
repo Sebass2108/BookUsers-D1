@@ -5,7 +5,6 @@ import java.util.ArrayList;
 
 public class FormListado extends JFrame {
 
-    // Componentes dibujados en FormListado.form (SIN new)
     private JPanel panelPrincipal;
     private JList<Usuario> lstUsuarios;
     private JButton btnVerDetalle;
@@ -13,7 +12,7 @@ public class FormListado extends JFrame {
     private JButton btnEliminar;
 
     private DefaultListModel<Usuario> modelo = new DefaultListModel<>();
-    private ArrayList<Usuario> usuarios; // la lista compartida
+    private ArrayList<Usuario> usuarios;
 
     public FormListado(ArrayList<Usuario> usuarios) {
         this.usuarios = usuarios;
