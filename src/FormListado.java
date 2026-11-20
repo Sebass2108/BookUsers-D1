@@ -50,7 +50,7 @@ public class FormListado extends JFrame {
 
     private void verDetalle() {
         Usuario u = seleccionado();
-        ///if (u != null) new FormDetalle(u).setVisible(true);
+        if (u != null) new FormDetalle(u).setVisible(true);
     }
 
     private void actualizar() {
