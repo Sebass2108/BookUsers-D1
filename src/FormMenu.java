@@ -13,11 +13,11 @@ public class FormMenu extends JFrame {
     private ArrayList<Usuario> usuarios = new ArrayList<>();
 
     public FormMenu() {
-        setTitle("BookUsers · Nombre Apellido y Nombre Apellido"); // TODO: pon sus nombres
+        setTitle("BookUsers · Nombre Apellido y Nombre Apellido");
         setContentPane(panelPrincipal);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
-        ///btnRegistrar.addActionListener(e -> new FormRegistro(usuarios).setVisible(true));
+        btnRegistrar.addActionListener(e -> new FormRegistro(usuarios).setVisible(true));
         ///btnListado.addActionListener(e -> new FormListado(usuarios).setVisible(true));
         ///btnCreditos.addActionListener(e -> new FormCreditos().setVisible(true));
 
